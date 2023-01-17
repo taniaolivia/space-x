@@ -1,0 +1,22 @@
+version: '3.3'
+services:
+  spacex-front:
+    container_name: spacex-front
+    build:
+      context: ./
+    image: spacex:latest
+    working_dir: /home/node/app
+    command:
+      - /bin/sh
+      - '-c'
+      - 'npm install && npm run serve'
+    ports:
+      - '8080:8080'
+    volumes:
+      - './:/home/node/app'
+    networks:
+      - spacex
+
+networks:
+  spacex:
+    driver: bridge
