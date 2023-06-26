@@ -1,6 +1,6 @@
 FROM node:latest as node
 
-EXPOSE 8080:8080
+EXPOSE 8081:8080
 
 WORKDIR /app
 
