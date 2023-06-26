@@ -25,10 +25,10 @@ spacex-front    |   To create a production build, run npm run build.
 spacex-front    | 
 Build finished at 22:46:01 by 0.000s
 ```
-That means docker has finished running and you can access the project on http://localhost:8080/.
+That means docker has finished running and you can access the project on http://localhost:8081/.
 
 ## Informations about the web application "Space X"
-- When you access the website on http://localhost:8080/. It'll show you the home page.
+- When you access the website on http://localhost:8081/. It'll show you the home page.
 - You can see all the list of capsules on the home page and by clicking the button "Capsules" on the navigation bar
 - Same thing for list of launches, you can see it by clicking the button "Launches" on the navigation bar
 - You can also click to see more details of a capsule or a launch by clicking the icon ℹ️ (info) on the list of capsules or launches page.
